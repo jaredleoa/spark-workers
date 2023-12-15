@@ -26,9 +26,9 @@ def test():
 @app.route("/add",methods=['GET','POST'])
 def add():
   if request.method=='GET':
-      return render_template('adding_vm_form.html')
+      return render_template('index.html')
   else:
-    token=access_secret_version("api")
+    token=access_secret_version("compute-api-key")
     ret = addWorker(token,request.form['num'])
     return ret
 
