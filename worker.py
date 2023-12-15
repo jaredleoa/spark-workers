@@ -21,7 +21,7 @@ def hello():
 
 @app.route("/test")
 def test():
-    return(access_secret_version("api"))
+    return(access_secret_version("compute-api-key"))
 
 @app.route("/add",methods=['GET','POST'])
 def add():
