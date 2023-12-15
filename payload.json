@@ -45,7 +45,7 @@
         }
       ],
       "stackType": "IPV4_ONLY",
-      "subnetwork": "projects/weighty-works-400314/regions/europe-west2-c/subnetworks/default"
+      "subnetwork": "projects/weighty-works-400314/regions/europe-west2/subnetworks/default"
     }
   ],
   "reservationAffinity": {
